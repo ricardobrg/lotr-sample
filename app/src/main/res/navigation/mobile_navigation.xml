@@ -3,12 +3,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_movies">
 
     <fragment
-        android:id="@+id/navigation_home"
+        android:id="@+id/navigation_movies"
         android:name="com.example.lordoftherings.movie.ui.MovieFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:label="@string/title_movies"
+        tools:layout="@layout/fragment_movie" />
+
+    <fragment
+        android:id="@+id/navigation_characters"
+        android:name="com.example.lordoftherings.character.ui.CharacterFragment"
+        android:label="@string/title_characters"
+        tools:layout="@layout/fragment_character" />
+
+    <fragment
+        android:id="@+id/navigation_quotes"
+        android:name="com.example.lordoftherings.quote.ui.QuoteFragment"
+        android:label="@string/title_quotes"
+        tools:layout="@layout/fragment_quote" />
 
 </navigation>

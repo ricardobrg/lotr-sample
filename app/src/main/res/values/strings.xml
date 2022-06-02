@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Lord Of The Rings</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_movies">Movies</string>
+    <string name="title_characters">Characters</string>
+    <string name="title_quotes">Quotes</string>
+    <string name="fav_star_description">tap to favorite movie</string>
 </resources>

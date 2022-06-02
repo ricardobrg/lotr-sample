@@ -5,14 +5,14 @@
     <data>
         <variable
             name="viewModel"
-            type="com.example.lordoftherings.movie.ui.MovieViewModel" />
+            type="com.example.lordoftherings.character.ui.CharacterViewModel" />
     </data>
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".movie.ui.MovieFragment">
+        tools:context=".character.ui.CharacterFragment">
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/movie_list"
+            android:id="@+id/character_list"
             android:layout_width="409dp"
             android:layout_height="460dp"
             android:layout_marginStart="1dp"
